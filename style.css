@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+
+    width: 60px;
+    height: 60px;
+}
+body
+{
+  background-image: url(./images/light-blue-curve-frame-template_53876-114602.avif);
+     
+     background-size: cover;
+     width:100%;
+    height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+.cal
+{
+   text-align: center;
+   background-color:#282929;
+  
+   border-radius: 20px;
+   border: 2px solid rgb(116,114,114);
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+}
+.screen input
+{
+    width: 320px;
+    height: 70px;
+    margin-top: 50px;
+    border: none;
+    background-color: #ecf0f3;
+    box-shadow: inset 5px 5px 12px #ffffff, 
+    inset -5px -5px 12px rgba(0,0,0,.16);
+    color:rgb(70,70,70);
+    font-size: 52px;
+    text-align: end;
+    border-radius: 20px;
+   
+}
+.container
+{
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+#b1
+{
+    width: 136px;
+    border-radius: 40px;
+    background: #2196f3;
+    color: #fff;
+}
+.btnn button
+{
+    margin: 7px;
+    border-radius: 100%;
+    border: none;
+    font-weight:600;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+   
+    
+}
+.btnn button:hover{
+
+  box-shadow: 5px 5px 12px #c0bdbd, inset -5px -5px 12px rgba(0,0,0,.34);
+}
+#clr
+{
+    background: green;
+    color: #fff;
+}
+#del
+{
+    background: red;
+    color: #fff;  
+}
+.btnop
+{
+    background: rgb(233, 219, 26);
+    font-weight: 700;
+    font-size: 25px;
+    color:black;
+}
+.btnop:hover
+{
+    box-shadow: 5px 5px 12px rgb(233, 219, 26), inset -5px -5px 12px rgba(0,0,0,.34);
+}
+
+
